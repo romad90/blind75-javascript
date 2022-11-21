@@ -1,0 +1,16 @@
+{
+  "name": "blind75",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": ["blind75, leetcode, interview, datastructures, algorithms"],
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/romad90/blind75-javascript.git",
+  "author": "Rodier Madiande <r.madiande@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
