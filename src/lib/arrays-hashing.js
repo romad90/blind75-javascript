@@ -27,9 +27,27 @@ const containDuplicates = function (arrNumbers) {
 }
 
 /**
+ * Valid Anagram
+ * Time complexity: O(n log n)
+ * Space complexity: O(1) (not considering sort() algorithm memory occupation in the equation)
+ *
+ */
+const isAnagram = function (s, t) {
+    mod_assert.ok(s, 's cannot be null!')
+    mod_assert.ok(t, 't cannot be null!')
+    mod_assert.ok(typeof s === 'string', 's must be a string')
+    mod_assert.ok(typeof t === 'string', 't must be a string')
+
+    if (s.length !== t.length) return false
+    
+    return s.split('').sort().join('') === t.split('').sort().join('')
+}
+
+/**
  * Module exports
  * @public
  */
 module.exports = {
-  containDuplicates
+  containDuplicates,
+  isAnagram
 }
