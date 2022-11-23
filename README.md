@@ -1,2 +1,7 @@
 # blind75-javascript
-Resolution of the 75 Leetcode problems identified by the famous Blind75 list.
+
+The goal is to gradually solve all the Leetcode problems from Blind75 list. While trying to resolve them, I want to learn and understand underlying patterns needed to do so.
+
+resolved:
+    * 217 - Contain Duplicates
+    * 242 - Valid Anagram
